@@ -1,0 +1,23 @@
+<mat-toolbar>
+  <img src="/assets/images/logo.png" height=30 width=30>
+  Welcome
+  <span class="flex-spacer"></span>
+  <button mat-button routerLink="/about" routerLinkActive="active">About</button>
+  <button mat-button routerLink="/projects" routerLinkActive="active">Projects</button>
+  <button mat-button routerLink="/photos" routerLinkActive="active">Photos</button>
+  <button mat-button routerLink="/contact" routerLinkActive="active">Contact</button>
+</mat-toolbar>
+<div
+  fxLayout="row"
+  fxLayout.sm="column"
+  fxLayout.xs="column"
+  fxLayoutAlign.xs="start center"
+  fxLayoutAlign.sm="start center"
+  fxLayoutAlign.gt-sm="center center"
+  fxLayoutGap="10px">
+
+  <div fxFlex fxFlex.gt-sm="50%">
+    <h1>Joyce Cho</h1>
+    <p>Things aren't always #000000 and #FFFFFF</p>
+  </div>
+</div>
