@@ -1,0 +1,8 @@
+.header-below {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background: #c5cae9;
+  width: 100% !important;
+  padding: 10px;
+}
