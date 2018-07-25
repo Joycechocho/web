@@ -1,0 +1,11 @@
+.home-transition {
+  width: 50%;
+  height: 350px;
+  background: #bdbdbd;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+
+.home-transition:hover {
+  width: 100%;
+}
