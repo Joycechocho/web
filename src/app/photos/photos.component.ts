@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./photos.component.css']
 })
 export class PhotosComponent implements OnInit {
-  datasource;
+  images;
   constructor() { }
   selectedImage;
 
@@ -14,29 +14,35 @@ export class PhotosComponent implements OnInit {
     this.selectedImage = image;
   }
   ngOnInit() {
-    this.datasource = [
-      {'url': '/assets/images/cool.jpg',
+    this.images = [
+      {'url': '/assets/images/1.JPG',
        'title': 'Aliquam erat volutpat',
        'caption': 'imperdiet imperdiet. Nullam ut ligula vitae arcu vulputate dictum ut quis elit.'},
-      {'url': '/assets/images/crying.jpg',
+      {'url': '/assets/images/2.JPG',
         'title': 'Aliquam erat volutpat',
         'caption': 'imperdiet imperdiet. Nullam ut ligula vitae arcu vulputate dictum ut quis elit.'},
-      {'url': '/assets/images/love.jpg',
+      {'url': '/assets/images/3.JPG',
         'title': 'Aliquam erat volutpat',
         'caption': 'imperdiet imperdiet. Nullam ut ligula vitae arcu vulputate dictum ut quis elit.'},
-      {'url': '/assets/images/question.jpg',
+      {'url': '/assets/images/4.JPG',
         'title': 'Aliquam erat volutpat',
         'caption': 'imperdiet imperdiet. Nullam ut ligula vitae arcu vulputate dictum ut quis elit.'},
-      {'url': '/assets/images/shock.jpg',
+      {'url': '/assets/images/5.JPG',
         'title': 'Aliquam erat volutpat',
         'caption': 'imperdiet imperdiet. Nullam ut ligula vitae arcu vulputate dictum ut quis elit.'},
-      {'url': '/assets/images/shy.jpg',
+      {'url': '/assets/images/6.JPG',
         'title': 'Aliquam erat volutpat',
         'caption': 'imperdiet imperdiet. Nullam ut ligula vitae arcu vulputate dictum ut quis elit.'},
-      {'url': '/assets/images/sick.jpg',
+      {'url': '/assets/images/7.JPG',
         'title': 'Aliquam erat volutpat',
         'caption': 'imperdiet imperdiet. Nullam ut ligula vitae arcu vulputate dictum ut quis elit.'},
-      {'url': '/assets/images/smile-1.jpg',
+      {'url': '/assets/images/8.JPG',
+        'title': 'Aliquam erat volutpat',
+        'caption': 'imperdiet imperdiet. Nullam ut ligula vitae arcu vulputate dictum ut quis elit.'},
+      {'url': '/assets/images/9.JPG',
+        'title': 'Aliquam erat volutpat',
+        'caption': 'imperdiet imperdiet. Nullam ut ligula vitae arcu vulputate dictum ut quis elit.'},
+      {'url': '/assets/images/10.JPG',
         'title': 'Aliquam erat volutpat',
         'caption': 'imperdiet imperdiet. Nullam ut ligula vitae arcu vulputate dictum ut quis elit.'}
     ];
