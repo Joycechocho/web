@@ -9,3 +9,8 @@
 .home-transition:hover {
   width: 100%;
 }
+
+.container {
+  width: 100%;
+  padding-top: 20px;
+}

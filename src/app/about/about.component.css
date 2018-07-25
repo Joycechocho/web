@@ -1,0 +1,19 @@
+.container {
+  padding-top: 30px;
+}
+
+.intro {
+  padding-left: 40px;
+}
+
+.pie-chart {
+  height: 300px;
+  width: 300px;
+  background-color: lightcyan;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+mat-list {
+  width: 200px;
+}

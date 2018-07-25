@@ -1,3 +1,24 @@
-<p>
-  projects works!
-</p>
+<div class="container" fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="0.5%" fxLayoutAlign="center">
+  <div fxFlex="20%" fxLayoutAlign="center" *ngFor="let picture of pictures">
+    <mat-grid-list [cols]="2">
+    <mat-card>
+    <img src="https://i.ytimg.com/vi/ANM-dq5USTc/mqdefault_live.jpg">
+    <mat-card-title>
+
+    <span>{{ picture.title }}</span>
+
+    </mat-card-title>
+    <mat-card-content>
+    <p>
+    {{ picture.caption }}
+    </p>
+    </mat-card-content>
+    <mat-card-actions>
+    <button mat-button>LIKE</button>
+    <button mat-button>SHARE</button>
+    </mat-card-actions>
+    </mat-card>
+    </mat-grid-list>
+  </div>
+
+</div>
